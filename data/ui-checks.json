@@ -1,0 +1,101 @@
+{
+  "result": "PASS",
+  "weeksTested": 54,
+  "viewportChecks": [
+    {
+      "width": 360,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 360,
+      "view": "groups",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "view": "groups",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "view": "groups",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "view": "groups",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "view": "groups",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "week",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "list",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "view": "groups",
+      "overflow": false
+    }
+  ],
+  "consoleErrors": [],
+  "textClipping": false,
+  "dialogOverlaps": false,
+  "offlineFileWorks": true,
+  "finalConsoleErrors": []
+}

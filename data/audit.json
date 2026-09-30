@@ -1,0 +1,468 @@
+{
+  "checkedAt": "2026-09-30",
+  "range": [
+    "2026-09-28",
+    "2027-01-31"
+  ],
+  "weeksChecked": 18,
+  "scope": "Опубликованные занятия выбранных групп. Отдельные лекции исключены; Lecture + Tutorials включены. Сессия за пределами доступного календаря не проверена.",
+  "students": {
+    "islam": {
+      "name": "Ислам",
+      "subjects": 5,
+      "events": 96,
+      "firstEvent": "2026-10-06",
+      "lastEvent": "2027-01-28",
+      "conflicts": [],
+      "checksum": "43e0a0fd",
+      "constantGroups": true,
+      "campusDays": 28,
+      "maxCampusDaysPerWeek": 2,
+      "onlineEvents": 0,
+      "shortTransfers": [],
+      "weekly": [
+        {
+          "start": "2026-09-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-05",
+          "events": 5,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-12",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-19",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-26",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-02",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-09",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-16",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-23",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-30",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-07",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-14",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-21",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-04",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-11",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-18",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-25",
+          "events": 7,
+          "campusDays": 2,
+          "onlineEvents": 0
+        }
+      ]
+    },
+    "alal": {
+      "name": "Алал",
+      "subjects": 8,
+      "events": 126,
+      "firstEvent": "2026-10-01",
+      "lastEvent": "2027-01-29",
+      "conflicts": [],
+      "checksum": "738298f6",
+      "constantGroups": true,
+      "campusDays": 43,
+      "maxCampusDaysPerWeek": 3,
+      "onlineEvents": 15,
+      "shortTransfers": [
+        {
+          "date": "2026-10-08",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-10-15",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-10-22",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-10-29",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-11-05",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-11-12",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-11-19",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-11-26",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-12-03",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-12-10",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2026-12-17",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2027-01-14",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2027-01-21",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        },
+        {
+          "date": "2027-01-28",
+          "from": "IFE-105",
+          "to": "BUILDING B19 ROOM 103",
+          "minutes": 15
+        }
+      ],
+      "weekly": [
+        {
+          "start": "2026-09-28",
+          "events": 1,
+          "campusDays": 1,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-05",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-10-12",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-10-19",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-10-26",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-11-02",
+          "events": 10,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-11-09",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-11-16",
+          "events": 10,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-11-23",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-11-30",
+          "events": 10,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-12-07",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-12-14",
+          "events": 10,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-12-21",
+          "events": 1,
+          "campusDays": 0,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2026-12-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-04",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-11",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2027-01-18",
+          "events": 10,
+          "campusDays": 3,
+          "onlineEvents": 1
+        },
+        {
+          "start": "2027-01-25",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 1
+        }
+      ]
+    },
+    "magzhan": {
+      "name": "Магжан",
+      "subjects": 6,
+      "events": 120,
+      "firstEvent": "2026-10-06",
+      "lastEvent": "2027-01-28",
+      "conflicts": [],
+      "checksum": "530490db",
+      "constantGroups": true,
+      "campusDays": 44,
+      "maxCampusDaysPerWeek": 3,
+      "onlineEvents": 0,
+      "shortTransfers": [],
+      "weekly": [
+        {
+          "start": "2026-09-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-05",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-12",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-19",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-26",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-02",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-09",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-16",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-23",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-30",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-07",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-14",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-21",
+          "events": 3,
+          "campusDays": 2,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-04",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-11",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-18",
+          "events": 9,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-25",
+          "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        }
+      ]
+    }
+  }
+}

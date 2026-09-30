@@ -1,0 +1,81 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {fileURLToPath} from 'node:url';
+
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=name=>JSON.parse(fs.readFileSync(path.join(root,'data',name),'utf8'));
+const catalog=read('catalog.json'), selections=read('selections.json'), meta=read('metadata.json');
+const minutes=t=>Number(t.slice(0,2))*60+Number(t.slice(3));
+const dayNumber=d=>Date.parse(d+'T12:00:00Z');
+const weekIndex=d=>Math.floor((dayNumber(d)-dayNumber(meta.periodStart))/604800000);
+const iso=d=>new Date(d).toISOString().slice(0,10);
+const fnv=s=>{let h=2166136261;for(const c of s){h^=c.charCodeAt(0);h=Math.imul(h,16777619);}return(h>>>0).toString(16);};
+const audit={checkedAt:meta.checkedAt,range:[meta.periodStart,meta.periodEnd],weeksChecked:18,scope:meta.scope,students:{}};
+const payload={meta,subjects:{},catalog,students:{}};
+for(const e of Object.values(catalog))payload.subjects[e.subject]=e.title;
+
+for(const [person,s] of Object.entries(selections)){
+ const events=[];
+ for(const [id,dates] of Object.entries(s.series)){
+  const c=catalog[id];assert(c,`${person}: missing event ${id}`);
+  assert(c.sourceGroups.includes(s.choices[c.subject]),`${person}: wrong group for ${id}`);
+  assert(c.location&&c.staff&&c.title,`${id}: missing details`);
+  assert(minutes(c.start)<minutes(c.end),`${id}: invalid time`);
+  assert.notEqual(c.sourceCategory,'Lecture','Standalone lecture included');
+  assert.equal(new Set(dates).size,dates.length,`${id}: repeated date`);
+  for(const date of dates){
+   assert.equal(iso(dayNumber(date)),date,`${id}: invalid date`);
+   assert(date>=meta.periodStart&&date<=meta.periodEnd,`${id}: out of range`);
+   events.push({id,date,group:s.choices[c.subject]});
+  }
+ }
+ events.sort((a,b)=>a.date.localeCompare(b.date)||catalog[a.id].start.localeCompare(catalog[b.id].start)||a.id.localeCompare(b.id));
+ const canonical=events.map(e=>e.date+'|'+e.id+'|'+catalog[e.id].sourceText).sort().join('\n');
+ const checksum=fnv(canonical);
+ assert.equal(checksum,meta.expected[person].fnv1a,`${person}: differs from browser extraction`);
+ assert.equal(events.length,meta.expected[person].occurrences,`${person}: missing occurrence`);
+ assert.deepEqual([...new Set(events.map(e=>catalog[e.id].subject))].sort(),Object.keys(s.choices).sort(),`${person}: missing subject`);
+ const conflicts=[], shortTransfers=[];
+ const byDate=Object.groupBy(events,e=>e.date);
+ for(const [date,es] of Object.entries(byDate)){
+  for(let i=0;i<es.length;i++)for(let j=i+1;j<es.length;j++){
+   const a=catalog[es[i].id],b=catalog[es[j].id];
+   if(minutes(a.start)<minutes(b.end)&&minutes(b.start)<minutes(a.end))conflicts.push({date,a:a.id,b:b.id});
+  }
+  const campus=es.filter(e=>!catalog[e.id].online);
+  for(let i=1;i<campus.length;i++){
+   const a=catalog[campus[i-1].id],b=catalog[campus[i].id],gap=minutes(b.start)-minutes(a.end);
+   if(gap<20&&a.location!==b.location)shortTransfers.push({date,from:a.location,to:b.location,minutes:gap});
+  }
+ }
+ assert.equal(conflicts.length,0,`${person}: overlaps found`);
+ const weekly=Array.from({length:18},(_,i)=>{
+  const es=events.filter(e=>weekIndex(e.date)===i),campus=es.filter(e=>!catalog[e.id].online);
+  return{start:iso(dayNumber(meta.periodStart)+i*604800000),events:es.length,campusDays:new Set(campus.map(e=>e.date)).size,onlineEvents:es.length-campus.length};
+ });
+ assert(Math.max(...weekly.map(w=>w.campusDays))<=(person==='islam'?2:3),`${person}: too many campus days`);
+ audit.students[person]={name:s.name,subjects:Object.keys(s.choices).length,events:events.length,firstEvent:events[0].date,lastEvent:events.at(-1).date,conflicts,checksum,constantGroups:true,campusDays:new Set(events.filter(e=>!catalog[e.id].online).map(e=>e.date)).size,maxCampusDaysPerWeek:Math.max(...weekly.map(w=>w.campusDays)),onlineEvents:events.filter(e=>catalog[e.id].online).length,shortTransfers,weekly};
+ payload.students[person]={name:s.name,resource:s.resource,summary:s.summary,choices:s.choices,events,stats:audit.students[person]};
+}
+// Independent regression checks for published one-off occurrences and common-group sessions.
+const has=(p,id,d)=>payload.students[p].events.some(e=>e.id===id&&e.date===d);
+assert(has('alal','23572','2026-10-01'));
+assert(has('alal','24175','2026-10-30'));
+assert(!has('alal','22900','2026-10-20'));
+assert(has('alal','23939','2026-11-09')&&has('alal','23940','2026-12-22'));
+assert(has('magzhan','23860','2026-12-23'));
+assert(has('magzhan','24611','2026-11-09')&&has('magzhan','24612','2026-12-22'));
+assert(has('magzhan','24093','2026-11-09')&&has('magzhan','24094','2026-12-22'));
+assert.equal(catalog['23678'].category,'mixed');
+assert.equal(catalog['22986'].location,'BUILDING A34 ROOM B.L 12');
+assert.equal(catalog['23520'].location,'BUILDING B19 ROOM 106; BUILDING B19 ROOM 107');
+const compiled='// Generated by node scripts/verify.mjs --write. All dates are explicit.\nwindow.TIMETABLE_DATA = '+JSON.stringify(payload)+';\n';
+if(process.argv.includes('--write')){
+ fs.writeFileSync(path.join(root,'data','audit.json'),JSON.stringify(audit,null,2)+'\n');
+ fs.writeFileSync(path.join(root,'dist','data.js'),compiled);
+}else{
+ assert.equal(fs.readFileSync(path.join(root,'dist','data.js'),'utf8'),compiled,'Browser data is stale; run npm run build');
+ assert.deepEqual(JSON.parse(fs.readFileSync(path.join(root,'data','audit.json'),'utf8')),audit,'Audit file is stale');
+}
+console.log(JSON.stringify({result:'PASS',weeks:18,totalEvents:Object.values(audit.students).reduce((n,s)=>n+s.events,0),students:Object.fromEntries(Object.entries(audit.students).map(([p,s])=>[p,{events:s.events,conflicts:s.conflicts.length,maxCampusDays:s.maxCampusDaysPerWeek,onlineEvents:s.onlineEvents,checksum:s.checksum}]))},null,2));

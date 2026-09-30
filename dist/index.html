@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#990000">
+  <meta name="description" content="Расписания Ислама, Алала и Магжана: постоянные группы, все опубликованные даты зимнего семестра 2026/27.">
+  <title>Моё расписание · Зима 2026/27</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23990000'/%3E%3Cpath d='M8 10h16v15H8zM8 15h16M12 7v6M20 7v6' fill='none' stroke='white' stroke-width='2'/%3E%3Cpath d='m12 20 3 3 6-6' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="app.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#schedule">К расписанию</a>
+  <header class="header">
+    <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 9h20v19H6zM6 15h20M11 4v9M21 4v9M11 21h4"/></svg><span>Моё расписание</span></div>
+    <span class="term">Зима 2026/27</span>
+    <a id="source-link" class="header-link" target="_blank" rel="noopener">Открыть CELCAT</a>
+  </header>
+  <div class="people-bar"><nav id="people" aria-label="Чьё расписание"></nav><span class="checked">Проверено 30.09.2026</span></div>
+  <main>
+    <section class="intro" aria-labelledby="person-title"><div><h1 id="person-title"></h1><p id="person-summary"></p></div><span class="verified">Без пересечений</span></section>
+    <div class="toolbar">
+      <div class="week-navigation"><button id="prev-week" class="icon-button" aria-label="Предыдущая неделя"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg></button><label class="week-label"><span class="sr-only">Неделя</span><select id="week-select"></select></label><button id="next-week" class="icon-button" aria-label="Следующая неделя"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button><button id="today" class="plain-button">Сегодня</button></div>
+      <nav class="views" aria-label="Вид расписания"><button data-view="week" aria-pressed="true">Неделя</button><button data-view="list" aria-pressed="false">Список</button><button data-view="groups" aria-pressed="false">Мои группы</button></nav>
+    </div>
+    <div id="week-summary" class="week-summary" aria-live="polite"></div>
+    <div id="week-notices" class="week-notices"></div>
+    <section id="schedule" tabindex="-1" aria-label="Занятия"></section>
+    <div class="legend" aria-label="Типы занятий"><span class="lab">Лабораторная</span><span class="tutorial">Практика</span><span class="project">Проект</span><span class="mixed">Лекция + практика</span><span class="online-legend">Онлайн</span></div>
+    <footer><p>Время — как в CELCAT, без пересчёта на вашем устройстве. Отдельные лекции исключены.</p><p>Данные на 30 сентября 2026 · доступный календарь до 31 января 2027 · <button id="audit-open" class="text-button">О проверке</button></p></footer>
+  </main>
+  <dialog id="details" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="dialog-close" class="icon-button" aria-label="Закрыть"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div id="dialog-content"></div></dialog>
+  <noscript><p class="empty">Для переключения расписаний включите JavaScript.</p></noscript>
+</body>
+</html>

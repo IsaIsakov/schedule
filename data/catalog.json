@@ -1,0 +1,550 @@
+{
+  "22866": {
+    "id": "22866",
+    "subject": "intro",
+    "title": "Introduction to Computer Science",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1CSC - group 4"
+    ],
+    "location": "BUILDING A12/i24 ROOM 107",
+    "staff": "FABIJAŃSKA, Anna",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "10:15 - 11:45 Laboratory 1CSC - group 4 BUILDING A12/i24 ROOM 107 FABIJAŃSKA, Anna",
+    "online": false
+  },
+  "22899": {
+    "id": "22899",
+    "subject": "digital",
+    "title": "Digital Systems 1",
+    "start": "14:15",
+    "end": "15:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "3CS - group 1",
+      "3CS - group 2"
+    ],
+    "location": "BUILDING B9/i23 ROOM 320A",
+    "staff": "DĘBIEC, Piotr",
+    "sourceNote": "weeks 5,7,9,11,13",
+    "note": "",
+    "sourceText": "14:15 - 15:45 weeks 5,7,9,11,13 Tutorials 3CS - group 1 ; 3CS - group 2 BUILDING B9/i23 ROOM 320A DĘBIEC, Piotr",
+    "online": false
+  },
+  "22900": {
+    "id": "22900",
+    "subject": "digital",
+    "title": "Digital Systems 1",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 1"
+    ],
+    "location": "BUILDING B9/i23 ROOM 204",
+    "staff": "DĘBIEC, Piotr",
+    "sourceNote": "odd weeks",
+    "note": "",
+    "sourceText": "12:15 - 13:45 odd weeks Laboratory 3CS - group 1 BUILDING B9/i23 ROOM 204 DĘBIEC, Piotr",
+    "online": false
+  },
+  "22904": {
+    "id": "22904",
+    "subject": "java",
+    "title": "Java Fundamentals",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 1"
+    ],
+    "location": "on-line",
+    "staff": "SAKOWICZ, Bartosz",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "16:15 - 17:45 Laboratory 3CS - group 1 on-line SAKOWICZ, Bartosz",
+    "online": true
+  },
+  "22914": {
+    "id": "22914",
+    "subject": "databases",
+    "title": "Databases",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 3"
+    ],
+    "location": "IFE-105",
+    "staff": "KAMIŃSKA, Dorota",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 13:45 Laboratory 3CS - group 3 IFE-105 KAMIŃSKA, Dorota",
+    "online": false
+  },
+  "22985": {
+    "id": "22985",
+    "subject": "physics",
+    "title": "Physics",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1ABB - group 1",
+      "1ABB - group 2"
+    ],
+    "location": "IFE-24",
+    "staff": "HAŁAGAN, Krzysztof",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 13:45 Tutorials 1ABB - group 1 ; 1ABB - group 2 IFE-24 HAŁAGAN, Krzysztof",
+    "online": false
+  },
+  "22986": {
+    "id": "22986",
+    "subject": "physics",
+    "title": "Physics",
+    "start": "09:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1ABB - group 1",
+      "1ABB - group 2"
+    ],
+    "location": "BUILDING A34 ROOM B.L 12",
+    "staff": "KOZANECKI, Marcin; ŁUSZCZYŃSKA, Beata",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "09:15 - 11:45 Laboratory 1ABB - group 1 ; 1ABB - group 2 BUILDING A34 ROOM B.L 12 KOZANECKI, Marcin; ŁUSZCZYŃSKA, Beata",
+    "online": false
+  },
+  "23468": {
+    "id": "23468",
+    "subject": "algebra",
+    "title": "Linear Algebra in Data Analysis",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1MDA - group 1",
+      "1MDA - group 2"
+    ],
+    "location": "BUILDING B14 ROOM 1.05",
+    "staff": "BŁOCH, Adam",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "16:15 - 17:45 Tutorials 1MDA - group 1 ; 1MDA - group 2 BUILDING B14 ROOM 1.05 BŁOCH, Adam",
+    "online": false
+  },
+  "23470": {
+    "id": "23470",
+    "subject": "algebra",
+    "title": "Linear Algebra in Data Analysis",
+    "start": "14:15",
+    "end": "15:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1MDA - group 2"
+    ],
+    "location": "BUILDING B14 ROOM 1.12",
+    "staff": "PAWLIKOWSKI, Michał",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "14:15 - 15:45 Laboratory 1MDA - group 2 BUILDING B14 ROOM 1.12 PAWLIKOWSKI, Michał",
+    "online": false
+  },
+  "23477": {
+    "id": "23477",
+    "subject": "math",
+    "title": "Mathematics of Data",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3MMDA - group 1"
+    ],
+    "location": "BUILDING B9 ROOM 53",
+    "staff": "SKALSKI, Grzegorz",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "10:15 - 11:45 Laboratory 3MMDA - group 1 BUILDING B9 ROOM 53 SKALSKI, Grzegorz",
+    "online": false
+  },
+  "23517": {
+    "id": "23517",
+    "subject": "oop",
+    "title": "Object Oriented Programming",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3IT - group 3"
+    ],
+    "location": "BUILDING B9 ROOM 432",
+    "staff": "TOMCZYK, Arkadiusz",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "10:15 - 11:45 Laboratory 3IT - group 3 BUILDING B9 ROOM 432 TOMCZYK, Arkadiusz",
+    "online": false
+  },
+  "23520": {
+    "id": "23520",
+    "subject": "network",
+    "title": "Network Technologies",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3IT - group 2"
+    ],
+    "location": "BUILDING B19 ROOM 106; BUILDING B19 ROOM 107",
+    "staff": "LEPLAWY, Marcin",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "10:15 - 11:45 Laboratory 3IT - group 2 BUILDING B19 ROOM 106; BUILDING B19 ROOM 107 LEPLAWY, Marcin",
+    "online": false
+  },
+  "23572": {
+    "id": "23572",
+    "subject": "cloud",
+    "title": "Cloud Computing Systems",
+    "start": "14:00",
+    "end": "15:30",
+    "category": "project",
+    "sourceCategory": "Project",
+    "sourceGroups": [
+      "5IT - group 1"
+    ],
+    "location": "BUILDING B19 ROOM 103",
+    "staff": "CEGIELSKI, Marcin",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "14:00 - 15:30 Project 5IT - group 1 BUILDING B19 ROOM 103 CEGIELSKI, Marcin",
+    "online": false
+  },
+  "23580": {
+    "id": "23580",
+    "subject": "it",
+    "title": "Information Technology",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1MDS - group 1"
+    ],
+    "location": "IFE-105",
+    "staff": "BIEDROŃ, Sebastian",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 13:45 Laboratory 1MDS - group 1 IFE-105 BIEDROŃ, Sebastian",
+    "online": false
+  },
+  "23663": {
+    "id": "23663",
+    "subject": "algorithms",
+    "title": "Algorithms and Programming Fundamentals",
+    "start": "12:00",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1ITC - group 1"
+    ],
+    "location": "BUILDING B19 ROOM 201",
+    "staff": "ROGOWSKI, Jan",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:00 - 13:45 Laboratory 1ITC - group 1 BUILDING B19 ROOM 201 ROGOWSKI, Jan",
+    "online": false
+  },
+  "23678": {
+    "id": "23678",
+    "subject": "safety",
+    "title": "Occupational Safety Management",
+    "start": "08:15",
+    "end": "09:45",
+    "category": "mixed",
+    "sourceCategory": "Lecture + Tutorials",
+    "sourceGroups": [
+      "3BS - group 1",
+      "3BS - group 2"
+    ],
+    "location": "IFE-16",
+    "staff": "BOCZKOWSKA, Katarzyna",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "08:15 - 09:45 Lecture + Tutorials 3BS - group 1 ; 3BS - group 2 IFE-16 BOCZKOWSKA, Katarzyna",
+    "online": false
+  },
+  "23717": {
+    "id": "23717",
+    "subject": "intro",
+    "title": "Introduction to Computer Science",
+    "start": "18:15",
+    "end": "19:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1CSC - group 4"
+    ],
+    "location": "BUILDING A12/i24 ROOM 108",
+    "staff": "JUWAIED, Abdulla",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "18:15 - 19:45 Laboratory 1CSC - group 4 BUILDING A12/i24 ROOM 108 JUWAIED, Abdulla",
+    "online": false
+  },
+  "23737": {
+    "id": "23737",
+    "subject": "iot",
+    "title": "Internet of Things",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "5CS - Erasmus 1"
+    ],
+    "location": "BUILDING B18 ROOM lab.M",
+    "staff": "ZAJĄC, Piotr",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "16:15 - 17:45 Laboratory 5CS - Erasmus 1 BUILDING B18 ROOM lab.M ZAJĄC, Piotr",
+    "online": false
+  },
+  "23860": {
+    "id": "23860",
+    "subject": "circuits",
+    "title": "Electrical Circuits",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1ETE - Erasmus 1"
+    ],
+    "location": "BUILDING C3/i26 ROOM 109",
+    "staff": "OSSOWSKI, Marek",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 13:45 Laboratory 1ETE - Erasmus 1 BUILDING C3/i26 ROOM 109 OSSOWSKI, Marek",
+    "online": false
+  },
+  "23882": {
+    "id": "23882",
+    "subject": "databases",
+    "title": "Databases",
+    "start": "12:15",
+    "end": "13:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3MDS - Erasmus 1"
+    ],
+    "location": "IFE-104",
+    "staff": "WĄS, Łukasz",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 13:45 Laboratory 3MDS - Erasmus 1 IFE-104 WĄS, Łukasz",
+    "online": false
+  },
+  "23939": {
+    "id": "23939",
+    "subject": "java",
+    "title": "Java Fundamentals",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 1"
+    ],
+    "location": "on-line",
+    "staff": "SAKOWICZ, Bartosz",
+    "sourceNote": "",
+    "note": "Java в понедельник вместо обычной среды.",
+    "sourceText": "16:15 - 17:45 Laboratory 3CS - group 1 on-line SAKOWICZ, Bartosz",
+    "online": true
+  },
+  "23940": {
+    "id": "23940",
+    "subject": "java",
+    "title": "Java Fundamentals",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 1"
+    ],
+    "location": "on-line",
+    "staff": "SAKOWICZ, Bartosz",
+    "sourceNote": "",
+    "note": "Java во вторник вместо обычной среды.",
+    "sourceText": "16:15 - 17:45 Laboratory 3CS - group 1 on-line SAKOWICZ, Bartosz",
+    "online": true
+  },
+  "24092": {
+    "id": "24092",
+    "subject": "circuits",
+    "title": "Electrical Circuits",
+    "start": "18:15",
+    "end": "19:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1ETE - Erasmus 1",
+      "1ETE - Erasmus 2"
+    ],
+    "location": "IFE-24",
+    "staff": "OSSOWSKI, Marek",
+    "sourceNote": "even weeks",
+    "note": "",
+    "sourceText": "18:15 - 19:45 even weeks Tutorials 1ETE - Erasmus 1; 1ETE - Erasmus 2 IFE-24 OSSOWSKI, Marek",
+    "online": false
+  },
+  "24093": {
+    "id": "24093",
+    "subject": "circuits",
+    "title": "Electrical Circuits",
+    "start": "18:15",
+    "end": "19:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1ETE - Erasmus 1",
+      "1ETE - Erasmus 2"
+    ],
+    "location": "IFE-24",
+    "staff": "OSSOWSKI, Marek",
+    "sourceNote": "",
+    "note": "Практика Electrical Circuits в понедельник.",
+    "sourceText": "18:15 - 19:45 Tutorials 1ETE - Erasmus 1; 1ETE - Erasmus 2 IFE-24 OSSOWSKI, Marek",
+    "online": false
+  },
+  "24094": {
+    "id": "24094",
+    "subject": "circuits",
+    "title": "Electrical Circuits",
+    "start": "18:15",
+    "end": "19:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1ETE - Erasmus 1",
+      "1ETE - Erasmus 2"
+    ],
+    "location": "IFE-24",
+    "staff": "OSSOWSKI, Marek",
+    "sourceNote": "",
+    "note": "Практика Electrical Circuits во вторник.",
+    "sourceText": "18:15 - 19:45 Tutorials 1ETE - Erasmus 1; 1ETE - Erasmus 2 IFE-24 OSSOWSKI, Marek",
+    "online": false
+  },
+  "24175": {
+    "id": "24175",
+    "subject": "digital",
+    "title": "Digital Systems 1",
+    "start": "14:15",
+    "end": "15:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3CS - group 1"
+    ],
+    "location": "BUILDING B9/i23 ROOM 204",
+    "staff": "DĘBIEC, Piotr",
+    "sourceNote": "make-up class from October 20th",
+    "note": "Перенос с 20 октября.",
+    "sourceText": "14:15 - 15:45 make-up class from October 20th Laboratory 3CS - group 1 BUILDING B9/i23 ROOM 204 DĘBIEC, Piotr",
+    "online": false
+  },
+  "24193": {
+    "id": "24193",
+    "subject": "economics",
+    "title": "Economics for Managers",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1BUS - group 1"
+    ],
+    "location": "BUILDING C3 ROOM 523",
+    "staff": "BAKALARCZYK, Sebastian",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "16:15 - 17:45 Tutorials 1BUS - group 1 BUILDING C3 ROOM 523 BAKALARCZYK, Sebastian",
+    "online": false
+  },
+  "24195": {
+    "id": "24195",
+    "subject": "economics",
+    "title": "Economics for Managers",
+    "start": "14:15",
+    "end": "15:45",
+    "category": "tutorial",
+    "sourceCategory": "Tutorials",
+    "sourceGroups": [
+      "1BUS - group 1"
+    ],
+    "location": "BUILDING C3 ROOM 523",
+    "staff": "BAKALARCZYK, Sebastian",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "14:15 - 15:45 Tutorials 1BUS - group 1 BUILDING C3 ROOM 523 BAKALARCZYK, Sebastian",
+    "online": false
+  },
+  "24611": {
+    "id": "24611",
+    "subject": "oop",
+    "title": "Object Oriented Programming",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3IT - group 3"
+    ],
+    "location": "BUILDING B9 ROOM 432",
+    "staff": "TOMCZYK, Arkadiusz",
+    "sourceNote": "",
+    "note": "OOP в понедельник вместо обычной среды.",
+    "sourceText": "10:15 - 11:45 Laboratory 3IT - group 3 BUILDING B9 ROOM 432 TOMCZYK, Arkadiusz",
+    "online": false
+  },
+  "24612": {
+    "id": "24612",
+    "subject": "oop",
+    "title": "Object Oriented Programming",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3IT - group 3"
+    ],
+    "location": "BUILDING B9 ROOM 432",
+    "staff": "TOMCZYK, Arkadiusz",
+    "sourceNote": "",
+    "note": "OOP во вторник вместо обычной среды.",
+    "sourceText": "10:15 - 11:45 Laboratory 3IT - group 3 BUILDING B9 ROOM 432 TOMCZYK, Arkadiusz",
+    "online": false
+  }
+}
