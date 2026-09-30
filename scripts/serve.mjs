@@ -14,4 +14,4 @@ http.createServer((req,res)=>{
   res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});
   if(req.method==='HEAD')res.end();else fs.createReadStream(file).pipe(res);
  });
-}).listen(port,'127.0.0.1',()=>console.log(`Local: http://127.0.0.1:${port}`));
+}).listen(port,'0.0.0.0',()=>console.log(`Server listening on 0.0.0.0:${port}`));

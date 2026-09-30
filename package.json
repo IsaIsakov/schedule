@@ -1,6 +1,6 @@
 {
   "name": "university-timetables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Verified CELCAT timetable selections for Islam, Alal and Magzhan, winter 2026/27",
   "type": "module",
