@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-01",
+  "resource": "FgZuYDnSwUHsBM",
+  "sourceUrl": "https://lodz.celcat.cloud/cal/?r=FgZuYDnSwUHsBM&v=list&z=1&w=1&dt=1791158400000&dta=1791158400000",
+  "requestedSubjectCount": 7,
+  "confirmedSubjects": [
+    "scripting",
+    "data_models",
+    "iot",
+    "xml",
+    "ai",
+    "databases"
+  ],
+  "pendingSubjects": [
+    "Digital Business Management Tools and Techniques"
+  ],
+  "scope": "Предварительный план только для шести найденных предметов. Отсутствие конфликтов с седьмым предметом не подтверждено.",
+  "weeksChecked": 18,
+  "sourceOccurrencesAllGroups": 544,
+  "practicalOccurrencesAllGroups": 469,
+  "groupCombinations": 11200,
+  "conflictFreeCombinations": 5273,
+  "selectionPriorities": [
+    "Минимум дней в университете в любую неделю",
+    "Нет переходов короче 20 минут",
+    "Минимум суммарных окон и времени до 10:00 / после 18:00",
+    "Меньше дней в университете за семестр"
+  ],
+  "selectedMetrics": {
+    "maxDaysPerWeek": 3,
+    "campusDays": 44,
+    "gapMinutes": 1425,
+    "minutesBefore10": 0,
+    "minutesAfter18": 0,
+    "transitionsBelow20Minutes": 0
+  },
+  "subjectProof": {
+    "scripting": "https://lodz.celcat.cloud/cal/?r=CwM3M",
+    "data_models": "https://lodz.celcat.cloud/cal/?r=CwM46",
+    "xml": "https://lodz.celcat.cloud/cal/?r=CwM5H",
+    "ai": "https://lodz.celcat.cloud/cal/?r=CwM3h"
+  },
+  "missingSubjectSearch": {
+    "terms": [
+      "Digital Business Management",
+      "Digital",
+      "Management",
+      "Business"
+    ],
+    "finding": "Точное название не найдено. Digital Tools for Managers не выбран: это другой предмет."
+  }
+}

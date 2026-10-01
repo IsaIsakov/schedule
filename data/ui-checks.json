@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "weeksTested": 54,
+  "weeksTested": 72,
   "viewportChecks": [
     {
       "width": 360,
@@ -94,8 +94,20 @@
     }
   ],
   "consoleErrors": [],
-  "textClipping": false,
-  "dialogOverlaps": false,
-  "offlineFileWorks": true,
-  "finalConsoleErrors": []
+  "checkedAt": "2026-10-01",
+  "mansur": {
+    "result": "PASS",
+    "responsiveWidths": [
+      360,
+      390,
+      768,
+      1024,
+      1101,
+      1440
+    ],
+    "pendingSubjectVisible": true,
+    "firstClassAndTransfersVerified": true,
+    "individualSourceDatesVerified": true,
+    "consoleErrors": []
+  }
 }

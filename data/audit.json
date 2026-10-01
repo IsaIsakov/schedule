@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "range": [
     "2026-09-28",
     "2027-01-31"
@@ -9,7 +9,11 @@
   "students": {
     "islam": {
       "name": "Ислам",
+      "checkedAt": "2026-09-30",
       "subjects": 5,
+      "requestedSubjectCount": 5,
+      "pendingSubjects": [],
+      "status": "complete",
       "events": 96,
       "firstEvent": "2026-10-06",
       "lastEvent": "2027-01-28",
@@ -133,7 +137,11 @@
     },
     "alal": {
       "name": "Алал",
+      "checkedAt": "2026-09-30",
       "subjects": 8,
+      "requestedSubjectCount": 8,
+      "pendingSubjects": [],
+      "status": "complete",
       "events": 126,
       "firstEvent": "2026-10-01",
       "lastEvent": "2027-01-29",
@@ -342,7 +350,11 @@
     },
     "magzhan": {
       "name": "Магжан",
+      "checkedAt": "2026-09-30",
       "subjects": 6,
+      "requestedSubjectCount": 6,
+      "pendingSubjects": [],
+      "status": "complete",
       "events": 120,
       "firstEvent": "2026-10-06",
       "lastEvent": "2027-01-28",
@@ -459,6 +471,136 @@
         {
           "start": "2027-01-25",
           "events": 8,
+          "campusDays": 3,
+          "onlineEvents": 0
+        }
+      ]
+    },
+    "mansur": {
+      "name": "Мансур",
+      "checkedAt": "2026-10-01",
+      "subjects": 6,
+      "requestedSubjectCount": 7,
+      "pendingSubjects": [
+        "Digital Business Management Tools and Techniques"
+      ],
+      "status": "partial",
+      "events": 85,
+      "firstEvent": "2026-10-02",
+      "lastEvent": "2027-01-29",
+      "conflicts": [],
+      "checksum": "ec784318",
+      "constantGroups": true,
+      "campusDays": 44,
+      "maxCampusDaysPerWeek": 3,
+      "onlineEvents": 0,
+      "shortTransfers": [],
+      "weekly": [
+        {
+          "start": "2026-09-28",
+          "events": 1,
+          "campusDays": 1,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-05",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-12",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-19",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-10-26",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-02",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-09",
+          "events": 5,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-16",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-23",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-11-30",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-07",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-14",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-21",
+          "events": 1,
+          "campusDays": 1,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2026-12-28",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-04",
+          "events": 0,
+          "campusDays": 0,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-11",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-18",
+          "events": 6,
+          "campusDays": 3,
+          "onlineEvents": 0
+        },
+        {
+          "start": "2027-01-25",
+          "events": 6,
           "campusDays": 3,
           "onlineEvents": 0
         }

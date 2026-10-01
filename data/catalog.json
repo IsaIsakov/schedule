@@ -17,6 +17,24 @@
     "sourceText": "10:15 - 11:45 Laboratory 1CSC - group 4 BUILDING A12/i24 ROOM 107 FABIJAŃSKA, Anna",
     "online": false
   },
+  "22875": {
+    "id": "22875",
+    "subject": "scripting",
+    "title": "Scripting Languages",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "1CSC - group 2"
+    ],
+    "location": "BUILDING B18 ROOM Iab.A",
+    "staff": "PLEWIŃSKI, Paweł",
+    "sourceNote": "weeks 2-15",
+    "note": "",
+    "sourceText": "10:15 - 11:45 weeks 2-15 Laboratory 1CSC - group 2 BUILDING B18 ROOM Iab.A PLEWIŃSKI, Paweł",
+    "online": false
+  },
   "22899": {
     "id": "22899",
     "subject": "digital",
@@ -183,6 +201,24 @@
     "sourceText": "10:15 - 11:45 Laboratory 3MMDA - group 1 BUILDING B9 ROOM 53 SKALSKI, Grzegorz",
     "online": false
   },
+  "23483": {
+    "id": "23483",
+    "subject": "data_models",
+    "title": "Algorithms and Data Models",
+    "start": "14:00",
+    "end": "15:30",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3MMDA - group 1"
+    ],
+    "location": "BUILDING B9 ROOM 51",
+    "staff": "BŁOCH, Adam",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "14:00 - 15:30 Laboratory 3MMDA - group 1 BUILDING B9 ROOM 51 BŁOCH, Adam",
+    "online": false
+  },
   "23517": {
     "id": "23517",
     "subject": "oop",
@@ -219,6 +255,24 @@
     "sourceText": "10:15 - 11:45 Laboratory 3IT - group 2 BUILDING B19 ROOM 106; BUILDING B19 ROOM 107 LEPLAWY, Marcin",
     "online": false
   },
+  "23552": {
+    "id": "23552",
+    "subject": "xml",
+    "title": "XML Technologies",
+    "start": "10:15",
+    "end": "11:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3IT - group 3"
+    ],
+    "location": "BUILDING B9 ROOM 433",
+    "staff": "OCHELSKA-MIERZEJEWSKA, Joanna",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "10:15 - 11:45 Laboratory 3IT - group 3 BUILDING B9 ROOM 433 OCHELSKA-MIERZEJEWSKA, Joanna",
+    "online": false
+  },
   "23572": {
     "id": "23572",
     "subject": "cloud",
@@ -253,6 +307,24 @@
     "sourceNote": "",
     "note": "",
     "sourceText": "12:15 - 13:45 Laboratory 1MDS - group 1 IFE-105 BIEDROŃ, Sebastian",
+    "online": false
+  },
+  "23637": {
+    "id": "23637",
+    "subject": "ai",
+    "title": "Artificial Intelligence Fundamentals",
+    "start": "12:15",
+    "end": "14:00",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "7MDS - group 1"
+    ],
+    "location": "BUILDING A12 ROOM E109",
+    "staff": "KUCHARSKI, Przemysław",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "12:15 - 14:00 Laboratory 7MDS - group 1 BUILDING A12 ROOM E109 KUCHARSKI, Przemysław",
     "online": false
   },
   "23663": {
@@ -308,6 +380,24 @@
     "sourceNote": "",
     "note": "",
     "sourceText": "18:15 - 19:45 Laboratory 1CSC - group 4 BUILDING A12/i24 ROOM 108 JUWAIED, Abdulla",
+    "online": false
+  },
+  "23734": {
+    "id": "23734",
+    "subject": "iot",
+    "title": "Internet of Things",
+    "start": "16:15",
+    "end": "17:45",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "5CS - group 2"
+    ],
+    "location": "BUILDING B18 ROOM lab.M",
+    "staff": "ZAJĄC, Piotr",
+    "sourceNote": "",
+    "note": "",
+    "sourceText": "16:15 - 17:45 Laboratory 5CS - group 2 BUILDING B18 ROOM lab.M ZAJĄC, Piotr",
     "online": false
   },
   "23737": {
@@ -509,6 +599,42 @@
     "sourceNote": "",
     "note": "",
     "sourceText": "14:15 - 15:45 Tutorials 1BUS - group 1 BUILDING C3 ROOM 523 BAKALARCZYK, Sebastian",
+    "online": false
+  },
+  "24534": {
+    "id": "24534",
+    "subject": "data_models",
+    "title": "Algorithms and Data Models",
+    "start": "14:00",
+    "end": "15:30",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3MMDA - group 1"
+    ],
+    "location": "BUILDING B9 ROOM 51",
+    "staff": "BŁOCH, Adam",
+    "sourceNote": "",
+    "note": "Algorithms and Data Models в понедельник вместо обычной среды.",
+    "sourceText": "14:00 - 15:30 Laboratory 3MMDA - group 1 BUILDING B9 ROOM 51 BŁOCH, Adam",
+    "online": false
+  },
+  "24535": {
+    "id": "24535",
+    "subject": "data_models",
+    "title": "Algorithms and Data Models",
+    "start": "14:00",
+    "end": "15:30",
+    "category": "lab",
+    "sourceCategory": "Laboratory",
+    "sourceGroups": [
+      "3MMDA - group 1"
+    ],
+    "location": "BUILDING B9 ROOM 51",
+    "staff": "BŁOCH, Adam",
+    "sourceNote": "",
+    "note": "Algorithms and Data Models во вторник вместо обычной среды.",
+    "sourceText": "14:00 - 15:30 Laboratory 3MMDA - group 1 BUILDING B9 ROOM 51 BŁOCH, Adam",
     "online": false
   },
   "24611": {
